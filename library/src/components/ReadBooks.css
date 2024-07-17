@@ -1,0 +1,159 @@
+.book {
+    display: flex;
+    height: 60vh;
+    width: 70%;
+    /* background:rgb(4, 104, 104); */
+    background: linear-gradient(rgb(99, 114, 107), white);
+    border: solid 3px rgb(99, 114, 107);
+    margin: 20px auto;
+    overflow-y: scroll;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgb(99, 114, 107);
+
+}
+.book .right{
+    width:100%;
+ 
+}
+
+.book .right .titl {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: rgb(215, 101, 120);
+    font-weight: bold;
+    text-shadow: 2px 1px white;
+    padding-bottom: 20px;
+}
+
+.book img {
+    height: 30vh;
+    width: 30vh;
+    display: block;
+    margin: 40px;
+    margin-top: 90px;
+}
+
+.book .short span {
+    color: crimson;
+    font-weight: bold;
+}
+
+.book .short {
+    color: rgb(6, 46, 46);
+    border: solid 0px black;
+    /* height:5vh; */
+    width:90%;
+    border-radius: 10px;
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  
+}
+.book .long {
+    color: rgb(6, 46, 46);
+    border: solid 0px black;
+    height:5vh;
+    width:90%;
+    border-radius: 10px;
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+  
+}
+.book .heading{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    background:rgb(99, 114, 107);  
+    text-align: center;
+   
+}
+
+.book .long span {
+    color: crimson;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .book .long {
+    color: rgb(6, 46, 46);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    /* background: yellow; */
+
+
+
+.book button {
+    height: 5vh;
+    width: 20%;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 300px 10px;
+    background: grey;
+    font-weight: bold;
+}
+
+
+
+.book button:hover {
+    background: rgb(99, 114, 107);
+    transition: all 2s ease;
+    color: antiquewhite;
+}
+.book button:active {
+    background: rgb(99, 114, 107); 
+    color: antiquewhite; 
+}
+
+.box{
+    height:15vh;
+    border:solid 0px black;
+    width:70%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(99, 114, 107);
+    text-align: center;
+}
+.box .b1{
+    height:10vh;
+    width:20%;
+    border:solid 0px black;
+    border-radius: 10px;
+    background: linear-gradient(rgb(99, 114, 107), white);
+    box-shadow: 3px 3px 3px rgb(99, 114, 107);
+}
+.box .b2{
+    height:10vh;
+    width:20%;
+    border: solid 0px black;
+    border-radius: 10px;
+    background: linear-gradient(rgb(194, 229, 229), white);
+    box-shadow: 3px 3px 3px rgb(99, 114, 107);
+    text-align: justify;
+
+}
+.box .b3{
+    height:10vh;
+    width:20%;
+    border: solid 0px black;
+    border-radius: 10px;
+    background: linear-gradient(rgb(194,229,229), white);
+    box-shadow: 3px 3px 3px rgb(99, 114, 107);
+
+}
+.box span{
+    color:crimson;
+    font-weight: bold;
+    text-align: center;
+}

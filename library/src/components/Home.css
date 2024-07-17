@@ -1,0 +1,26 @@
+.home{
+    height: 85vh;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2020/05/25/17/54/library-5219747_1280.jpg");
+    position: relative;
+    
+}
+
+.lib{
+    height: 200px;
+    width: 400px;
+    background-color: rgba(43, 41, 39, 0.463);
+    box-shadow: 1px 1px 20px  white;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    border-radius: 10px;
+    
+}
+h1{
+     color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 1px 1px 20px  rgb(13, 11, 11);
+}
